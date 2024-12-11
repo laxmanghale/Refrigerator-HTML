@@ -6,4 +6,4 @@
     <p>Welcome to our website. We specialize in state-of-the-art home appliances to make your life easier.</p>
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'footer.html'; ?>

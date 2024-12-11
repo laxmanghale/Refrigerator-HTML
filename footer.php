@@ -14,8 +14,7 @@
             </div>
         <div class="footer-section">
             <h3>Contact Us</h3>
-                <p>Hotel Reservation: 123-456-7890</p>
-                <p>Ticket Office: 123-456-7890</p>
+                <p>Tel ph: 0111111</p>
         </div>
         <div class="footer-section">
             <h3>Shop</h3>
@@ -29,7 +28,7 @@
         <div class="footer-section">
             <h3>About</h3>
                 <ul>
-                <li><a href="#">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li><a href="#">Responsibility</a></li>
                 <li><a href="#">Technology & Innovation</a></li>
                 <li><a href="#">Explore our stories</a></li>
