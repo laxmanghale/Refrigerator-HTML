@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
-    <link rel="stylesheet" href="checkout.css">
+    <title>Products</title>
+    <link rel="stylesheet" href="products.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="footer.css">
-</head>
+
+    </head>
+</html>
 <body>
     <div class="navbar">
         <div class="navbar-left">
@@ -27,50 +29,51 @@
             <img src="https://img.icons8.com/ios-filled/50/ffffff/menu--v1.png" alt="Menu">
         </div>
     </div>
-    <div class="container">
-        <div class="checkout-form">
-            <h1>Checkout</h1>
-
-            <div class="section">
-                <div class="sectionone">
-                    <h2>Address ----- Payment</h2>
-                  
-                </div>
-                <div class="username">
-                <label for="firstName"></label>
-                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
-                <label for="lastName"></label>
-                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+    <div class="all-container">
+        <div class="options">
+            <h2>DashStack</h2>
+            <a href="dashboard.html" ><img src="images/dashboard.png"> Dashboard</a>
+            <a href="products.html" id="dash"><img src="images/projects.png"> Products</a>
+            <a href="#"><img src="images/projects.png">Product Stock</a>
+            <a href="#"><img src="images/inbox.png">Inbox</a>
+            <a href="lists.html"><img src="images/projects.png"> Lists</a>
+            <div class="options-down">
+                <a href="#">Settings</a>
+                <a href="logout.php">Logout</a>
             </div>
-
-        <div class="form-group">
-            <label for="address"></label>
-            <input type="text" id="address" name="address" placeholder="Address" required>
         </div>
-        <div class="form-group">
-            <label for="city"></label>
-            <input type="text" id="city" name="city" placeholder="City" required>
-        </div>
-        <div class="form-group">
-            <label for="country"></label>
-            <select id="country" name="country" required>
-                <option value="">Select Country</option>
-                <option value="usa">USA</option>
-                <option value="canada">Canada</option>
-                <option value="uk">United Kingdom</option>
-                <option value="uk">Nepal</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="zipcode"></label>
-            <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode" required>
-        </div>
-        <div class="form-group">
-            <label for="phone"></label>
-            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
-        </div>
-        </div>
-            <button type="submit" class="btn">Place Order</button>
+        <div class="add-container">
+            <form action="add.php" method="POST" name="form">
+                <p>Product Information</p>
+                <div class="productimgs">
+                    <img src="./pic/top door.jpg">
+                    <img src="./pic/top door.jpg">
+                    <img src="./pic/top door.jpg">
+                    <img src="./pic/top door.jpg">
+                </div>
+                <label> Name </label>
+                <input type="text"  name="name" value="" requried>
+                <label> Description </label>
+                <input type="textarea" rowspan="30" columnspan="30" name="description" value="" requried>
+                <div class="nitems">
+                    <div class="low">
+                        <label>   Price </label>
+                        <input type="text"  id="half" name="price" value="" requried>
+                    </div>
+                    <div class="low">
+                        <label> Quantity </label>
+                        <input type="text" id="half" name="stock" value="" requried>
+                    </div>
+                </div>
+                <label>Category</label>
+                <select  name="options" >
+                    <option value="Top Freeze Refrigerator">Top Freeze Refrigerator</option>
+                    <option value="Door-in-Door">Door-in-Door</option>
+                    <option value="Side by Side Refrigerator">Side by Side Refrigerator</option>
+                    <option value="InstaView Door-in-Door">InstaView Door-in-Door</option>
+                </select>
+                <button input type="submit" name="submit" >Submit</button>
+            </form>
         </div>
     </div>
 </body>

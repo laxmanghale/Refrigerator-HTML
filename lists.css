@@ -1,7 +1,6 @@
     * {
             box-sizing: border-box;
         }
-
         body {
             background-color: #F5F6FA;
             font-family: 'Nunito Sans', sans-serif;
@@ -9,9 +8,6 @@
             padding: 0;
             overflow-x:hidden;
         }
-     
-
-       
         .dashboard
         {
             display:flex;
@@ -28,8 +24,6 @@
             gap:2px;
             padding:10px;
         }
-
-        
         .options-down{
             display:flex;
             flex-direction:column;
@@ -53,7 +47,6 @@
             text-decoration:none;
             align-items:center;
             font-size:13px; 
-           
         }
         .options a img{
             margin-right:17px;
@@ -85,8 +78,6 @@
             margin-left:0.8%;
             width:100%;
         }
-       
-    
         #dash{
             background-color:#4880FF;
             color:white;
@@ -112,18 +103,13 @@
             gap: 20px;
             overflow: hidden;
             box-sizing: border-box; 
-
-
         }
-
         .footer-column {
             display: flex;
             flex-direction: column;
             gap:20px;
             white-space: nowrap;
-
         }
-
         .footer-column a {
             color: gray;
             text-decoration: none;
@@ -133,17 +119,14 @@
             padding: 0;
             
         }
-
         .footer-column a:hover {
             color: black;
         }
-
         .footer-column p {
             margin: 0;
             color: black;
             white-space: nowrap;
         }
-
         .footer-column .bold {
             font-weight: bold;
         }

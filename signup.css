@@ -3,7 +3,6 @@
                     background-color: #F5F6FA;
                    
                 }
-
                 .contents {
                     display: flex;
                     flex-direction: column;
@@ -11,7 +10,6 @@
                 
                     
                 }
-
                 form {
                     background-color: #fff;
                     width: 100%;
